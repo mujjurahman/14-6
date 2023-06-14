@@ -3,3 +3,7 @@ Error: Object of class Drupal\file\Entity\File could not be converted to string 
 
 The website encountered an unexpected error. Please try again later.
 Error: Cannot use object of type Drupal\file\Entity\File as array in pfe_med_connect_form_submit() (line 106 of profiles\pfpfpfizerfr_profile\modules\pfe_med_connect\pfe_med_connect.module).
+
+The website encountered an unexpected error. Please try again later.
+
+Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Airethrapeutique' in 'field list': INSERT INTO "custom_table" ("Produit", "Airethrapeutique", "Dpartement", "RMRadresseemail", "Backupadresseemail") VALUES (:db_insert_placeholder_0, :db_insert_placeholder_1, :db_insert_placeholder_2, :db_insert_placeholder_3, :db_insert_placeholder_4); Array ( [:db_insert_placeholder_0] => ﻿Produit [:db_insert_placeholder_1] => Aire thérapeutique [:db_insert_placeholder_2] => Département [:db_insert_placeholder_3] => RMR adresse email [:db_insert_placeholder_4] => Backup adresse email ) in pfe_med_connect_insert_data() (line 191 of profiles\pfpfpfizerfr_profile\modules\pfe_med_connect\pfe_med_connect.module).
