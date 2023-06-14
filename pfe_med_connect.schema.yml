@@ -1,0 +1,32 @@
+pfe_med_connect.custom_table:
+  description: 'Custom table for storing data.'
+  fields:
+    Produit:
+      type: varchar
+      length: 255
+      not null: true
+      description: 'The product name.'
+    Aire thérapeutique:
+      type: varchar
+      length: 255
+      not null: true
+      description: 'The therapeutic area.'
+    Département:
+      type: varchar
+      length: 255
+      not null: true
+      description: 'The district.'
+    RMR adresse email:
+      type: varchar
+      length: 255
+      not null: true
+      description: 'The MSL email address.'
+    Backup adresse email:
+      type: varchar
+      length: 255
+      not null: true
+      description: 'The backup email address.'
+  primary key:
+    - Produit
+    - Aire thérapeutique
+    - Département
