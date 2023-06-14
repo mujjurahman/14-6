@@ -1,0 +1,2 @@
+The website encountered an unexpected error. Please try again later.
+Error: Object of class Drupal\file\Entity\File could not be converted to string in Drupal\Core\Entity\EntityStorageBase->buildCacheId() (line 176 of core\lib\Drupal\Core\Entity\EntityStorageBase.php).
